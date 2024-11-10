@@ -1,0 +1,369 @@
+.whatapp-button {
+    position: fixed;
+    bottom: 10px;
+    right: 1em;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0px 0px 0px 3px #64b161;
+    width: 230px;
+    height: 70px;
+    background-color: #64b161;
+    background-color: #64b161;
+    line-height: 1px;
+    /* text-align: right; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: left; */
+    align-items: center;
+    z-index: 10;
+    padding: 10px;
+    gap: 20px;
+}
+
+.whatapp-button * {
+    margin: 0px;
+    padding: 0px;
+}
+
+.whatapp-button a {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.whatapp-button img {
+    height: 40px;
+    /* width: 50px; */
+    /* margin-bottom: 10px; */
+}
+
+.whatapp-button:hover {
+
+    background-color: white;
+    color: white;
+    cursor: pointer;
+
+}
+
+.whatapp-button * {
+    color: white;
+}
+
+.whatapp-button:hover * {
+    color: #64b161;
+}
+
+.single-list-topics-icon img {
+    height: 100px;
+}
+
+/* #bloco */
+
+.bloco {
+    background-color: white;
+    box-shadow: 0 0px 10px rgba(71, 71, 71, .2);
+    border-radius: 3px;
+    padding: 2em;
+    margin: auto;
+    width: 800px;
+    max-width: 100%;
+    margin-top: 50px;
+}
+
+.container {
+    /* padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+     */
+
+    /* background-color: red; */
+    width: 700px;
+    max-width: 100%;
+    /* width: 100%; */
+    margin: auto;
+    /* background-color: red; */
+    overflow: hidden;
+}
+
+
+table td,
+table th {
+    box-shadow: inset 0px 0px 0px 1px #00000011;
+    padding: 10px;
+    /* color: black; */
+    /* 
+    background-color: white; */
+}
+
+table {
+    /* max-width: 750px; */
+    /* margin: auto; */
+    /* background-color: red; */
+    padding: 10px;
+
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    color: black;
+}
+
+@media (max-width: 600px) {
+    table {
+        font-size: 0.9em;
+    }
+}
+
+
+.table-servicos {
+    margin-top: 2em;
+
+    /* width: 100px; */
+    /* height: 100px; */
+    overflow: hidden;
+
+}
+
+.table-servicos img {
+    height: 40px;
+}
+
+.single {
+    width: 130px;
+    padding: 10px;
+    text-align: center;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-items {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    flex-wrap: wrap;
+    /* translate: 0 -50px; */
+    margin-top: 1em;
+    margin-bottom: 2em;
+    z-index: 5;
+    position: relative;
+
+    overflow: hidden;
+}
+
+
+
+.single h2 {
+    font-size: 1em !important;
+    margin: auto;
+    /* width: 120px */
+}
+
+.block {
+    position: relative;
+    box-shadow: 0px 0px 0px 5px red;
+    border-radius: 100%;
+    overflow: hidden;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 120px;
+    background-color: white;
+    /* width: 100%; */
+}
+
+.block::after {
+    content: '';
+    /* box-shadow: 0px 0px 0px 3px red; */
+    width: 120px;
+    height: 3px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    margin: auto;
+    background-color: red;
+    transform: rotate(-45deg);
+}
+
+h2 {
+    text-align: center;
+    /* padding: 1em; */
+
+    color: #505866;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+
+.album {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 1em;
+    justify-content: center;
+}
+
+.wpp-button {
+    background-color: #64b161;
+    color: white;
+    margin: 1px auto;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.wpp-instagram {
+    /* background-color: #64b161; */
+    background: linear-gradient(45deg, #ffc03d, #f02c97, #073fe0);
+    color: white;
+    margin: 1px auto;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.group-contatos {
+    display: grid;
+    width: 250px;
+    margin: auto;
+}
+
+
+.menu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    z-index: 10;
+    box-shadow: 0 1px 3px #0000001f, 0 1px 2px #0000003d;
+    color: black !important;
+    height: min-content;
+    z-index: 20;
+    width: 100%;
+}
+
+.menu ul {
+    padding: 0;
+    /* background-color: red; */
+    margin: 0 auto;
+    list-style: none;
+    /* height: 70px; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    gap: 3em;
+}
+
+.menu ul li {
+    list-style: none;
+    padding: 10px;
+
+}
+
+.menu ul a:hover {
+    color: #ff545a
+}
+
+.menu {
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 50px;
+}
+
+.menu .menu-icon {
+    padding: 10px;
+
+    /* display: inline-block; */
+    cursor: pointer;
+    display: none;
+}
+
+.menu .menu-icon:hover {
+    color: #ff545a;
+}
+
+@media (max-width: 700px) {
+
+
+    .single {
+        width: 100px;
+    }
+
+    /* hamburguer menu */
+
+    .menu {
+        height: auto;
+
+    }
+
+    .menu .menu-icon {
+        display: inline-block;
+    }
+
+    .menu-desactive .item {
+        display: none;
+    }
+
+    .menu-desactive ul {
+        margin: 0;
+        gap: 0px;
+        display: grid;
+        padding: 0px;
+
+
+    }
+
+    .menu-active ul {
+        margin: 0;
+        gap: 0px !important;
+        display: grid;
+
+        padding: 0px;
+        margin: 0px;
+
+        /* background-color: blue; */
+        /* background-color: red; */
+        /* display: grid; */
+        /* box-shadow: 0px 0px 3px black; */
+
+    }
+
+    .menu-active a {
+        /* background-color: blue; */
+        padding: 20px;
+        /* background-color: purple; */
+        width: 100%;
+    }
+
+    .menu-active ul li {
+        padding: 0px;
+    }
+
+    .menu-active li {
+        /* width: 100px; */
+        /* width: 100%; */
+        /* background-color: red; */
+        /* background-color: red; */
+        /* background-color: yellow; */
+        padding: 10px;
+        /* margin: 10px; */
+    }
+
+
+    .block {
+        width: 100%;
+    }
+}
